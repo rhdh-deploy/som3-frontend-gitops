@@ -1,0 +1,15 @@
+app:
+  name: som3-poi-map-app
+  namespace: som3
+  cluster: .apps.a1jxqhzp.eastus2.aroapp.io
+
+git:
+  branch: main
+  repo: https://github.com/rhdh-deploy/som3-frontend
+  org: rhdh-deploy
+  name: som3-frontend
+
+image:
+  host: image-registry.openshift-image-registry.svc:5000
+  name: som3/poi-map-app
+  tag: latest
